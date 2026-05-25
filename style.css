@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    background-color: ivory;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    background-color: pink;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+
+    margin-left: 10px;
+}
+
+button{
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.addbutton{
+    padding: 10px;
+    font-size: 14px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: orangered;
+}
